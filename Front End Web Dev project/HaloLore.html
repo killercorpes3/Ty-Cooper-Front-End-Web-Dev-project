@@ -1,0 +1,181 @@
+<html>
+<head>
+	<title>My Website</title>
+
+	<style>
+		/* Style the taskbar container */
+		.taskbar {
+			background-color: #333;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			z-index: 1;
+		}
+
+		
+		/* Style the taskbar items */
+		.taskbar-item {
+			color: white;
+			font-size: 16px;
+			padding: 10px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+		
+		/* Style the active taskbar item */
+		.taskbar-item.active {
+			background-color: #666;
+		}
+
+		.taskbar-item:hover {
+			background-color: #555;
+			color: white;
+		}
+	</style>
+
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+
+</head>
+<body id="home">
+
+<div style="height: 800; overflow: auto;">
+
+<div class="grid-container">
+<div class="item1">	
+<h2>Welcome to Halo Dedication!</h2>
+<h3>Where we shall learn about the past and present lore of the Halo games</h3>
+</div>
+
+<div class="item2">
+<div class="gallery">
+  <a target="_blank" href="jorge-final.jpg">
+    <img src="jorge-final.jpg" alt="Jorge-052" width="600" height="400">
+  </a>
+  <div class="desc"><a href="https://www.artstation.com/artwork/lx4Z8k">made by Isaac Hannaford</a></div>
+</div>
+</div>
+
+<div class="item3">
+<p>In this website, we will be delving into the rich history and mythology of the Halo games, from the ancient Forerunner civilization to the ongoing conflict between humanity and the Covenant. please keep in mind I will not be covering the books, shows, or movies only the games.</p>
+
+<p> Thanks to wikipedia for the common information and base plot. Another thanks to halo.fandom.com for detailed information on th plot and gameplay of each game. <p>
+
+<p> If we were to go in the order of game release it would be Halo: Combat Evolved [or Halo: CE] (2001), Halo 2 (2004), Halo 3 (2007), Halo Wars (2009), Halo 3: ODST (2009), Halo: Reach (2010), Halo: Combat Evolved Anniversary (2011), Halo 4 (2012), Halo 5: Guardians (2015), Halo Wars 2 (2017), Halo Infinite (2021) but for how the lore of halo has been made it goes Halo Wars, Halo Reach, Halo: CE, Halo 2, Halo 3, Halo 3: ODST, Halo 4, Halo 5: Guardians, Halo Wars 2, Halo Infinite. <p>
+
+<p> Some common knowlege is that Halo is a military science fiction media franchise, originally developed by Bungie and currently managed and developed by 343 Industries, part of Microsoft's Xbox Game Studios. <p>
+</div>  
+
+<div class="item4">
+<p> If you wish to learn more please select a game to learn more detailed information the game and year is listed below <p>
+
+	<ul>
+		<li>Halo Wars (2531)</li>
+		<li>Halo Reach (2552)</li>
+		<li>Halo: Combat Evolved (2552)</li>
+		<li>Halo 2 (2552)</li>
+		<li>Halo 3 (2552)</li>
+		<li>Halo 3: ODST (2552)</li>
+		<li>Halo 4 (2557)</li>
+		<li>Halo 5: Guardians (2558)</li>
+		<li>Halo Wars 2 (2559)</li>
+		<li>Halo Infinite (2560)</li>
+	</ul>
+
+ </div>
+
+	<div class="taskbar">
+		<div class="taskbar-item active">Home</div>
+		<div class="taskbar-item">Halo Wars</div>
+		<div class="taskbar-item">Halo Reach</div>
+		<div class="taskbar-item">Halo: CE</div>
+		<div class="taskbar-item">Halo 2</div>
+		<div class="taskbar-item">Halo 3</div>
+		<div class="taskbar-item">Halo 3: ODST </div>
+		<div class="taskbar-item">Halo 4</div>
+		<div class="taskbar-item">Halo 5: Guardians</div>
+		<div class="taskbar-item">Halo Wars 2</div>
+		<div class="taskbar-item">Halo Infinite</div>
+	</div>
+</div>
+
+<div class="item5">
+<p>The plot through all the games so far is Hundreds of thousands of years ago, the Mantle of Responsibility belonged to the Precursors, who gave all life to the galaxy. However, the Precursors wanted to give such power, instead of to the Forerunners as originally planned, to the human race. In retaliation, the Forerunners drove the Precursors into extinction. Instead of fighting back, the Precursors let themselves die to their creations, turning into a dust to later become themselves once again. It spread like wildfire due to ancient humans rubbing the powders on their pets, believing it helped their pets to live longer. However, instead of helping their pets, it eventually infected and contorted them into a new parasitic species, connected by a hivemind to the minds of the last Precursors: The Flood. The Forerunners sent the humans to Earth, reverting then to a primitive civilisation based in Africa, and fought the Flood, which spread through an infestation of sentient life and had overrun much of the Milky Way Galaxy. Exhausting all other strategies, the Forerunners conceived the Halo Array — ring-shaped megastructures and weapons of last resort that would destroy all sentient life in the galaxy to stop the Flood. A civil war between the Forerunner's dictator known as the Didact, who wanted to assimilate all the humans on Earth into his army as AI's, thus immune to the flood, and his wife the Librarian, who created the Ark, an instrument which allowed for the mass creation of Halo installations which could all be activated simultaneously. The Librarian, along with all the remaining forerunners, trapped her husband inside a Forerunner repository of knowledge known as the Domain, activated the Ark and disappeared. <p>
+
+<p> Nearly a hundred thousand years later in the 26th century, humanity—under the auspices of the United Nations Space Command, or UNSC—colonized many worlds thanks to the development of faster-than-light "slipstream space" (i.e. hyperspace) travel. Tensions between the government and colonies desiring independence sparked violent clashes. The UNSC sponsored the SPARTAN-II Project to create an elite group of enhanced supersoldiers to suppress the rebellions covertly. In the year 2525, human worlds come under attack by a theocratic alliance of alien races known as the Covenant, whose leadership declared humanity heretics and an affront to their gods—the Forerunners. The Covenant began a genocidal holy war. Their superior technology and numbers proved decisive advantages; though effective, the Spartans were too few in number to turn the tide of battle in humanity's favor. After the Covenant invaded Reach, the UNSC's last major stronghold besides Earth, Master Chief John-117 was left as one of the few remaining Spartans.<p>
+
+<p> The rediscovery of the Halo rings set the humans against the Covenant, who believed they were instruments of transcendence, not destruction. Master Chief and his artificial intelligence Cortana were instrumental in the destruction of a Halo ring to stop the Covenant and the threat of the Flood. Master Chief defeats the Prophet of Regret leading to the Prophets of Truth and Mercy denouncing the Sangheili as the most honourable species amongst the Covenant. This begins a civil war within the covenant, with many grappling over the revelation that their religion was false. The disgraced former Covenant Sangheili commander known as the Arbiter, along with the rest of his race, helped the humans destroy the Covenant and stop the Prophet of Truth from activating the Halo Array via the Ark. The Human-Covenant War ended, though new conflicts begin to emerge throughout the universe.<p>
+
+<p> In the post-war era, the UNSC creates a new generation of Spartans, and tensions between the UNSC and colonist rebels resumed. The Master Chief and Cortana accidentally free the Didact and he briefly returns to assert supremacy over humanity, though he is foiled by the pair, resulting in Master Chief initially believing Cortana dead in the attempt. Cortana's survival through the Domain leads her to break with the UNSC and assert a new hegemony over the galaxy, with artificial intelligence (the "Created") in control. After two years of a scattered war between Cortana and the UNSC, Cortana attacks the Banished, a mercenary organization largely led by the Jiralhanae race. The Banished win the resultant conflict, terminating Cortana and battle the UNSC for control of Zeta Halo. <p>
+</div>
+</div>
+	
+	<nav class="menu">
+		<div class="taskbar">
+  			<a href="HaloLore.html" class="taskbar-item active">Home</a>
+  			<a href="HaloWars.html" class="taskbar-item">Halo Wars</a>
+  			<a href="HaloReach.html" class="taskbar-item">Halo Reach</a>
+  			<a href="HaloCE.html" class="taskbar-item">>Halo: CE</a>
+  			<a href="Halo2.html" class="taskbar-item">>Halo 2</a>
+  			<a href="Halo3.html" class="taskbar-item">>Halo 3</a>
+  			<a href="Halo3_ODST.html" class="taskbar-item">>Halo 3:ODST </a>
+  			<a href="Halo4.html" class="taskbar-item">Halo 4</a>
+  			<a href="Halo5.html" class="taskbar-item">Halo 5: Guardians</a>
+  			<a href="HaloWars2.html" class="taskbar-item">Halo Wars 2</a>
+  			<a href="HaloInfinite.html" class="taskbar-item">Halo Infinite</a>
+		</div>
+	</nav>
+
+</body>
+</html>
